@@ -1,0 +1,11 @@
+server:
+  type: simple
+  applicationContextPath: /
+  adminContextPath: /admin
+  connector:
+    type: http
+    port: 8080
+logging:
+  level: INFO
+  loggers:
+    tech.dimas: DEBUG
