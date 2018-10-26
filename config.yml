@@ -1,3 +1,7 @@
+greetingClient:
+  baseUri: ${GREETING_BASE_URI:-http://localhost:8080/}
+  username: ${GREETING_USERNAME:-Alfonso}
+  password: ${GREETING_PASSWORD:-password}
 server:
   type: simple
   applicationContextPath: /

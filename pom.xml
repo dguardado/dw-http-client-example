@@ -37,6 +37,10 @@
             <groupId>io.dropwizard</groupId>
             <artifactId>dropwizard-core</artifactId>
         </dependency>
+        <dependency>
+            <groupId>io.dropwizard</groupId>
+            <artifactId>dropwizard-client</artifactId>
+        </dependency>
         <!-- required in JDK 11 -->
         <dependency>
             <groupId>javax.xml.bind</groupId>
