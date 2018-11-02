@@ -13,3 +13,5 @@ logging:
   level: INFO
   loggers:
     tech.dimas: DEBUG
+    org.apache.http: DEBUG
+    org.apache.http.wire: ERROR
